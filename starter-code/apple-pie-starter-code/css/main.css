@@ -1,30 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 .apple-pie {
     color: white;
     background-image: url("../images/apple-pie.jpg");
     margin: 20px 20px;
     padding: 200px 200px;
     font-size: 40px;
-    width: 800px;
+    width: 65%;
     height: 300px;
-}
-
-.section-1 {
-    border right: 200px;
-    padding: 200px 200px;
-}
-
-.needed-ingredients {
-    text-decoration: none;
-}
-
-
-body {
     text-align: center;
-    padding: 100px;
 }
 
 .ingredients {
     font-display: center;
-
+    padding: 20px;
 }
 
+.needed-ingredients {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: justify;
+    font-display: center;
+}
+
+body {
+    font-family: ‘Montserrat’, sans-serif;
+    text-align: justify;
+    padding: 100px;
+}
+
+
+.cook-directions {
+    text-decoration: none;
+    list-style-type: none;
+    font-display: justify;
+}
+
+h2 {
+    text-align: justify;
+    text-align-last: center;  
+}
+
+h1, body, html {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .section-1 {
+    padding: 20px;
+  }
+
+  .directions-class {
+    padding: 20px;
+  }
+
+  p {
+      padding: 20px;
+      text-align: justify;
+      width: 50%;
+  }
